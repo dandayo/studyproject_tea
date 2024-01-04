@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+img#logo{
+    padding: 10px;
+    height: 50px;
+}
+
+nav{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+main{
+    padding-top: 70px;
+}
+
+img.photo{
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+#mission{
+    background-image: url(media/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding-top: 330px;
+}
+
+.mission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    line-height: 0px;
+    height: 120px;
+}
+
+#tea_of_the_month{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tea_choise{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nomination{
+    width: 300px; 
+    padding: 10px;
+}
+
+#location{
+    background-image: url(media/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 500px;
+    margin: 0 auto;
+ 
+}
+
+#location h2 {
+    padding-top: 60px;
+}
+
+.places{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.place{
+    display: flex;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+#copyright{
+    text-align: left;
+    padding-left: 20px;
+}
